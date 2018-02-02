@@ -20,7 +20,7 @@ sfeatures_df.take(1)
 #output: [Row(id=1, features=DenseVector([10.0, 10000.0, 1.0]), sfeatures=DenseVector([0.0, 0.0, 0.0]))]
 
 # Display the entire dataframe to compare the original values and their equivalent normalized values.
-sfeatures_df.select("features","sfeatures").show()
+sfeatures_df.select("features","sfeatures").show() 
 
 '''
 final output:
